@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="..//CSS/ESTILO.CSS">
+    <title>Compra</title>
+</head>
+<body>
+    <header class="title">
+        <div class="logo">
+            <img src="..//MULTIMEDIA/IMAGEN/logo.jpg" alt="logo">                
+        </div>
+        <h1>WINE & COFFE</h1>
+    
+        <nav class="main-nav">
+            <ul>
+                <li><a href="..//HTML/Comienzo vino.HTML">Información</a></li>
+                <li><a href="..//HTML/IniciarSesion.html">Iniciar sesion</a></li>
+                <li><a href="..//HTML/Compra.html">Comprar</a></li>
+            </ul>
+        </nav>
+        <p>Dulce vino de primavera que me sonrie, amargo cafe que me abraza en invierno</p>
+    </header>
+    <aside class="aside">
+        <nav>
+            <h2><a href="..//Index.HTML">Vino y cafe</a></h2>
+            <ul>
+                <li><a href="..//HTML/Comienzo vino.HTML" target="_blank">Un poco de los comienzos del Vino</a></li>
+                <li><a href="..//HTML/ComienzoCafe.HTML">Comienzos del cafe</a></li>
+                <li><a href="..//HTML/Uso.HTMl">Su uso actualmente</a></li>
+                <li><a href="..//HTML/Objetivo.HTML">Nuestro objetivo</a></li>
+                <li><a href="..//HTML/Contactenos.HTML">Contactenos</a></li>
+                <li><a href="..//HTML/TIPOSV.HTML">Tipos</a></li>
+            </ul>
+        </nav>
+    </aside>
+    <main class="container">
+        <header>
+            <h2 class="form-title">Registro de compra</h2>
+        </header>
+        <form action="">
+            <label for="usuario">
+                <span>Ingrese el usuario</span>
+                <input type="email" id="usuario" autocomplete="email" placeholder="email" required maxlength="50">
+            </label>
+            <br>
+            <label for="nombre">
+                <span>Ingrese el nombre</span>
+                <input type="text" id="nombre" autocomplete="name" placeholder="nombre" maxlength="25">
+            </label>
+            <br>
+            <label for="apellido">
+                <span>Ingrese el apellido</span>
+                <input type="text" id="apellido" autocomplete="name" placeholder="apellido" maxlength="25">
+            </label>
+            <br>
+            <label for="producto">
+                <span>Producto</span>
+                <select name="producto" id="">
+                    <option value="Recetas">Recetas</option>
+                    <option value="Vino rosa">Vino rosa</option>
+                    <option value="Vino tinto">Vino tinto</option>
+                    <option value="Vino espumoso">Vino espumoso</option>
+                    <option value="Vino generoso">Vino generoso</option>
+                </select>
+            </label>
+            <br>
+            <label for="direccion">
+                <span>Ingrese la dirección</span>
+                <input type="text" id="direccion" autocomplete="street-address" placeholder="direccion" required maxlength="50">
+            </label>
+            <br>
+            <label for="domicilio">
+                <span>¿Desea la entrega a domicilio?</span>
+                <input type="radio" id="domicilio" name="domicilio" required>Si
+                <input type="radio" id="domicilio" name="domicilio" required>No
+            </label>
+            <br>
+            <label for="fecha">
+                <span>Ingrese la fecha de pedido</span>
+                <input type="date" id="fecha" required >
+            </label>
+            <br>
+            <input type="button" id="Añadir" value="Nuevo"> 
+            <input type="submit" id="guardar" value="Cancelar">
+            <button type="submit" value="Comprar">Comprar</button>
+            <br>
+            <input type="checkbox">Todos los datos son correctos
+        </form>
+    </main>
+    
+    <footer>
+        <h3>Integrantes</h3>
+        <br>Yulieth Paulina Guzman Tejada
+        <br>Cristian Giraldo
+        Todos los derechos reservados
+    </footer>
+</body>
+</html>
